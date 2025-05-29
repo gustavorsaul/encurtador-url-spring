@@ -37,7 +37,7 @@ Projeto de encurtador de URL desenvolvido em **Spring Boot** com **MongoDB**.
 
 ## Execução
 
-- Para a correta execução do programa, deve-se entrar na pasta `/docker` e executar dentro dela no termminal o comando `docker compose up`.
+- Para a correta execução do programa, deve-se entrar na pasta `/docker` e executar dentro dela no terminal o comando `docker compose up`.
 - Com o container no ar, é possível acompanhar as atualizações do banco de dados dentro do `MongoDB Compass`, acessando o aplicativo e adicionando a porta e os dados corretos nas configurações de conexão.
 - Após o container em execução e o MongoDB configurado, é possível executar a aplicação Java, pela classe `Application.java` ou pelo terminal na pasta raiz do projeto com o comando `mvn spring-boot:run`.
-- Após isso, será possível testar por meio de programas API Client, como Postman, utilizando o formato de requisições POST com a estrutura JSON presente na parte dos `Endpoints`.
+- Após isso, será possível testar as URLs por meio de programas API Client, como Postman, utilizando o formato de requisições POST com a estrutura JSON presente na parte dos `Endpoints`.
